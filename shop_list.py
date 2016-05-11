@@ -18,7 +18,7 @@ def rem_shop():
         shop_list.remove(y)
     else:
         print "That item isn't in your list!"
-    shop_list.sort()
+    sort_alpha(shop_list)
     print shop_list
 
 def sort_alpha(list_name):
